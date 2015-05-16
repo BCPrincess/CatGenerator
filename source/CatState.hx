@@ -21,7 +21,7 @@ class CatState extends FlxState
      		FlxG.switchState(new InputState());
         }));
         var cat:Cat = new Cat();
-        add(new FlxText(20, 20, cat.clan));
+        add(new FlxText(20, 20, 0, cat.clan));
 		super.create();
 	}
 	
